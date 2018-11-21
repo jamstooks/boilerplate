@@ -13,8 +13,8 @@ const generate = require('nanoid/generate')
 
 const repoURL = (protocol, project) =>
   protocol === 'ssh'
-    ? `git@github.com:clevertech/${project}.git`
-    : `https://github.com/clevertech/${project}.git`
+    ? `git@github.com:jamstooks/${project}.git`
+    : `https://github.com/jamstooks/${project}.git`
 
 const dirName = process.argv[2]
 
